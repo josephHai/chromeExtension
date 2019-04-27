@@ -1,0 +1,26 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "description": "chrome插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephHai/chromeExtension.git"
+  },
+  "keywords": [
+    "chrome插件"
+  ],
+  "author": "josephHai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephHai/chromeExtension/issues"
+  },
+  "homepage": "https://github.com/josephHai/chromeExtension#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  }
+}
