@@ -16,3 +16,10 @@ save.onclick = function(element) {
 
   chrome.storage.sync.set(content);
 };
+
+chrome.storage.sync.get(null, (v) => {
+  const input = document.getElementsByTagName('input');
+  v.name !== null && (input[0].value = v.name);
+  v.sid !== null && (input[1].value = v.sid);
+  v.tel !== null && (input[2].value = v.tel);
+});
